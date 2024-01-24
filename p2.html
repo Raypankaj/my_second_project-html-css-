@@ -1,0 +1,60 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p2.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="full-page">
+    <form action="backend.php">
+        <div class="page">
+    <h1 id="top">Application Form</h1>
+    <div class="contaner">
+        <Label for="first_name">First Name :</Label>
+       <input type="text" id="first_name" name="fname" placeholder="Enter Your First Name">
+       <Label for="last_name">Last  Name :</Label>
+       <input type="text" id="last_name" name="lname" placeholder="Enter Your Last Name">
+    </div>
+    <div class="contaner">
+        <Label for="candiemail">
+            Email:
+        </Label>
+        <input type="email" id="candimail" name="email" placeholder="Enter Your Email Id ">
+        <label for="gender">Gender :</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+    <div class="contaner">
+        <Label for="dob">
+            Date of Birth :
+        </Label>
+        <input type="date" id="dob" placeholder="Select Your Date Of Birth" >
+        <Label for="ph.no">
+            Phone Number :
+        </Label>
+        <input type="tel" id="ph.no" placeholder="Enter Your Phone Number">
+    </div>
+    <div class="contaner">
+        <label for="adress"> Address : </label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+        </div>
+        <div class="upload-cv">
+            <label for="upload-cv">Upload cv</label>
+            <input type="file" placeholder="Upload Your Cv">
+        </div>
+        <div class="button">
+            <button>
+                <input id="submit" type="submit" placeholder="Apply">
+            </button>
+        </div>
+    </div>
+    
+</div>
+    </form>
+   </div> 
+</body>
+</html>
